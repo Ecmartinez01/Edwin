@@ -1,0 +1,30 @@
+#banner{
+	width: 100%;
+	height: 90%;
+	background-size:100% 100%; 
+    background-image:url("../images/banner1.jpg"); 
+    animation: banner 10s infinite;
+    border-radius: 20px;
+    animation-direction: alternate;
+}
+@keyframes banner {
+	0%, 30%{
+		     background-image:url("../images/banner1.jpg"); 
+		     opacity: 1;
+		 }
+		 31%, 34%;{
+		 	opacity: 0.1;
+		 }
+	35%, 65% {
+		     background-image:url("../images/banner3.jpg");
+		     opacity: 1; 
+	}
+	64%, 69% {
+		opacity: 0.1;
+	}
+	70%, 100% {
+		    background-image:url("../images/banner4.jpg"); 
+		    	opacity: 1;
+	}
+}
+

@@ -1,0 +1,58 @@
+.formulario{
+    width: 30em;
+    text-align: center;
+    height: auto;
+    padding-bottom: 10px;
+    align-self: center;
+    align-content: center;
+    /* background-image: url('../../shared/images/el-tiempo.jpg'); */
+    background: #9090908c;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    margin: auto;
+}
+
+.tablaD{
+    align-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+@media (max-width: 600px) {
+    .formulario{
+        width: auto;
+        text-align: center;
+        height: auto;
+        padding-bottom: 10px;
+        align-self: center;
+        align-content: center;
+        background: #24ADB6;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 6px;
+        margin: auto;
+    }
+  }
+/* Rectangle 1 */
+
+
+/* position: absolute;
+width: 364px;
+height: 326px; */
+
+
+
+
+/* Rectangle 2 */
+
+
+
+
+
+/* Frame 1 */
+
+
+/* position: relative;
+width: 276px;
+height: 101px;
+
+background: #FFFFFF; */

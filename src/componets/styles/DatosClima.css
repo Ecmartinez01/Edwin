@@ -1,0 +1,15 @@
+td{
+    border: none;
+}
+.tablaClima{
+    width: 24em;
+    border: solid 1px black;
+    margin: auto;
+}
+@media (max-width: 600px) {
+    .tablaClima{
+        width: auto;
+        border: solid 1px black;
+        margin: auto;
+    }
+}

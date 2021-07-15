@@ -1,0 +1,17 @@
+.formulario-control{
+width: 15em;
+height: 20px; 
+background: #57575745;
+border-radius: 4px;
+border: none;
+margin-bottom: 10px;
+text-align: center;
+}
+.formulario-control:focus{
+    border: none ;
+    outline: none;
+}
+.titulo{
+    padding-top: 20px;
+    height: 1.5em;
+}
